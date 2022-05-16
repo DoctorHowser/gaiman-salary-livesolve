@@ -1,7 +1,8 @@
 # Salary Calc TODO
 
 - PROJECT SETUP
-   - index.html, client.js, jQuery..., style.css
+   - [x] index.html, client.js, jQuery..., style.css
+   - [x] Boilerplate
 
 - Collect Salary Data
     - [] Form
