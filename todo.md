@@ -6,13 +6,13 @@
 
 - Collect Salary Data
     - [] Form
-        - [] HTML Inputs
+        - [x] HTML Inputs
                 _employee first name, last name, ID number, job title, annual salary_
-        - [] Submit Button
-        - [] Click Listener
-            - [] Add Function...
-            - [] Collect Employee...
-            - [] Add to Array...?
+        - [x] Submit Button
+        - [x] Click Listener
+            - [x] Add Function...
+            - [x] Collect Employee...
+            - [x] Add to Array...?
             - [] Append to Dom...?
             - [] Clear input fields
 
