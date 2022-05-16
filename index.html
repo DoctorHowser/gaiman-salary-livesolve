@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salary Calculator!</title>
-    
+
     <!-- SCRIPTS -->
     <script src="./vendors/jquery-3.6.0.min.js"></script>
     <script src="./scripts/client.js"></script>
-   
-   <!-- STYLES -->
+
+    <!-- STYLES -->
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <header>
         <h1>SALARY CALCULATOR</h1>
@@ -20,19 +22,46 @@
     <section>
         <!-- FORM -->
         <!-- _employee first name, last name, ID number, job title, annual salary_ -->
-        <input id="fName" class="field" placeholder="First name"/>
-        <input id="lName" class="field" placeholder="Last name"/>
-        <input id="idNum" class="field" placeholder="ID Number"/>
-        <input id="jobTitle" class="field" placeholder="Job Title"/>
-        <input id="salary" class="field" placeholder="Annual Salary"/>
+        <input id="fName" class="field" placeholder="First name" />
+        <input id="lName" class="field" placeholder="Last name" />
+        <input id="idNum" class="field" placeholder="ID Number" />
+        <input id="jobTitle" class="field" placeholder="Job Title" />
+        <input type="number" id="salary" class="field" placeholder="Annual Salary" />
         <button id="addEmployee">Add Employee</button>
 
     </section>
     <main>
         <!-- TABLE -->
+        <table>
+            <thead>
+                <!-- Column Headings -->
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID Number</th>
+                    <th>Title</th>
+                    <th>Annual Salary</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="target">
+                <!-- Rows of Data from JQUERY -->
+                <!-- <tr>
+                    <td>Dane</td>
+                    <td>Smith</td>
+                    <td>2</td>
+                    <td>Instructor</td>
+                    <td>1</td>
+                    <td><button>DELETE?</button></td>
+                </tr> -->
+            </tbody>
+        </table>
     </main>
-    <footer></footer>
-    
-    
+    <footer>
+        <p>Monthly Total: $<span id="monthly">0</span></p>
+    </footer>
+
+
 </body>
+
 </html>
